@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/section1.css">
+    <link rel="stylesheet" href="./css/section2.css">
+    <link rel="stylesheet" href="./css/section3.css">
+    <link rel="stylesheet" href="./css/section4.css">
+    <link rel="stylesheet" href="./css/section5.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<header id="header">
+    <div class = "container" id="headerdiv">
+         <h1 class="icon-balance-scale">   Estudio Jurídico</h1>
+         <nav>
+             <a href="#section4">Información</a>
+            <a href="#section5">Ubicación</a>
+            <a href="#form">Contacto</a>         
+        </nav>
+    </div>
+</header>
+<main>
+    <section id="section1">
+        <div class="imagen">
+        <img src="./img/bg1.jpg">
+        </div>
+        <div class = "container" id="textoimg">
+            <h2> Defendemos tus derechos </h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="container" id="redes">
+            <a class="icon-instagram" href="https://instagram.com" target="_blank"></a>
+            <a class="icon-facebook-squared" href="https://facebook.com" target="_blank"></a>
+            <a class ="icon-whatsapp" href="https://whatsapp.com" target="_blank"></a>
+        </div>
+    </section>
+    <section id="section2">
+        <div class="container">
+            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit incidunt tempora voluptate rerum, consectetur a? Ea labore corporis dolor illum et possimus pariatur quisquam adipisci officiis beatae delectus, doloribus necessitatibus quasi architecto. Numquam necessitatibus dolorum consectetur impedit, eaque natus id earum! Assumenda totam fuga beatae aperiam minima ducimus atque sit?</p>
+        </div>
+    </section>
+    <section id = "section3">
+        <div class="container">
+            <h2> Nuestro equipo</h2>
+            <div class="flexdiv">
+                <div class="elementoflex">
+                    <img src="./img/retrato1.PNG" alt="retrato1">
+                    <p>Juan Carlos</p>
+                </div>
+                <div class="elementoflex">
+                    <img src="./img/retrato2.PNG" alt="retrato2">
+                    <p>Lucas Donia</p>
+                </div>
+                <div class="elementoflex">
+                    <img src="./img/retrato3.PNG" alt="retrato3">
+                    <p>Martin Sobek</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section4">
+        <div class="container">
+            <h2>Áreas de práctica</h2>
+            <div class="flexdiv2">
+                <div class="elementoflex2">
+                    <h3>Derecho Penal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, tenetur.</p>
+                </div>
+                <div class="elementoflex2">
+                    <h3>Derecho Civil</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, tenetur.</p>
+                </div>
+                <div class="elementoflex2">
+                    <h3>Derecho Laboral</h3><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, tenetur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section5">
+        <div class="container">
+            <h2>Donde estamos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.7504517363973!2d-58.538727584272145!3d-34.66100466803944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc861f48a454d%3A0x949557c92d6757d5!2sLas%20Heras%202592%2C%20B1752BBN%20Lomas%20del%20Mirador%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1653005478993!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Las Heras 2592</p>
+        </div>
+    </section>
+
+
+    <form id="form">
+        <h2>Contactanos</h2>
+        <div class="elementoform">
+            <label for="nombre" class="formlabel">Nombre</label>
+            <input type="text" name="nombre" class ="forminput"id="nombre" placeholder="Carlos">
+            <p class="warnings" id="error1"></p>
+        </div>
+        <div class="elementoform">
+            <label for="apellido" class="formlabel">Apellido</label>
+            <input type="text" name="apellido" class ="forminput" id="apellido" placeholder="Martinez">
+            <p class="warnings" id="error2"></p>
+        </div>
+        <div class="elementoform">
+            <label for="telefono" class="formlabel">Teléfono</label>
+            <input type="text" name="telefono" class ="forminput" id="telefono" placeholder="1122222222">
+            <p class="warnings" id="error3"></p>
+        </div>
+        <div class="elementoform">
+            <label for="correo" class="formlabel">Correo</label>
+            <input type="text" name="correo" class ="forminput" id="correo" placeholder="mail@mail.com">
+            <p class="warnings" id="error4"></p>
+        </div>
+        <div class="elementoform">
+            <label for="mensaje" class="formlabel">Mensaje</label>
+            <textarea id="mensaje" class="forminput" placeholder="Escriba su mensaje aquí"></textarea>
+            <p class="warnings" id="error5"></p>
+        </div>
+        <button type="submit" class="boton">Enviar</button>
+        <p class="enviado" id="enviado"></p>
+    </form>
+
+    <footer>
+        <div class="container" id="footer">
+            <a class="icon-instagram" href="https://instagram.com" target="_blank"></a>
+            <a class="icon-facebook-squared" href="https://facebook.com" target="_blank"></a>
+            <a class ="icon-whatsapp" href="https://whatsapp.com" target="_blank"></a>
+            <p>Derechos reservados</p>
+            <p>2022</p>
+                       
+        </div>
+    </footer>
+</main>
+
+    <script src="./js/main.js"></script> 
+</body>
+</html>

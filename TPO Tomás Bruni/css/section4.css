@@ -1,0 +1,48 @@
+#section4 h2 {
+    text-align: center;
+}
+
+
+
+#section4{
+    background-color: rgb(39, 39, 39);
+}
+
+#section4 .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#section4 h2{
+    color: white;
+}
+
+.flexdiv2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+   
+}
+
+.elementoflex2{
+    margin: 20px;
+    border: solid 2px;
+    padding: 15px;
+    width: 200px;
+    color: white;
+}
+
+
+
+.elementoflex2 h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline 2px  ;
+}
+
+.elementoflex2 p {
+   
+    text-align: center;
+    font-size: larger;
+}
